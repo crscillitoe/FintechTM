@@ -1,65 +1,16 @@
-.container
+.container(style="display: flex;justify-content: flex-end;width: 100%;")
   .row
     .col-sm-12
       .page-header
-        h1 FORTRAN.io
-          small finally, a Fortran Web Framework
-  .row
-    .col-sm-4
-      h3 History
-      p Fortran is foundational to languages we use today.
-      p Fortran never left us... it runs our mainframes today.
-      p Ashes to ashes. Dust into dust. Fortran to JavaScript, back to Fortran
-    .col-sm-4
-      h3 An MVC Framework
-      p Everything to get started, even if you don't know Fortran
-      ul
-        li
-          a(href="/static/model.html") SQLite database
-        li
-          a(href="/static/view.html") HTML templating
-        li
-          a(href="/static/controller.html") Fortran as controller
-      a(href="https://github.com/mapmeld/fortran-machine/blob/master/README.md") Setup Guide
-    .col-sm-4
-      h3 Open Source
-      p
-        span The source code and documentation are open source, BSD license
-        br
-        span FLIBS code by Arjen Markus and Ricolindo Carino
-        br
-        a(href="https://github.com/mapmeld/fortran-machine")
-          button.btn.btn-primary View on GitHub
-  .row
+        h1 FintechTM
+          p Summation as a Service? (SaS?)
     .col-sm-6
-      h3 Installing
-      p Fortran.io is like PHP: FastCGI runs a script which outputs HTML strings
-      h4 Using Ubuntu 14.04
-      code sudo apt-get install nginx gfortran spawn-fcgi git libfcgi-dev sqlite3
-      br
-      code git clone https://github.com/mapmeld/fortran-machine.git
-      br
-      strong Use gfortran to compile flibs and other libraries, then:
-      br
-      code spawn-fcgi -a 127.0.0.1 -p 9000 ./fortran_fcgi
-    .col-sm-6
-      h3 Try a search
+      h3 Summate 
       form(class="navbar-form"action="/search")
-        h4 Search marsupials by name
+        h4 Summate your numerical elements
+        p Result: ∃ n s.t. e1, e2 c ℕ n == e1 + e2
         .form-group
-          input(class="form-control"name="q"placeholder="eg&nbsp;koala")
-        button.btn-primary(type="submit") Search
+          input(class="form-control"name="e1"placeholder="eg&nbsp;1")
+          input(class="form-control"name="e2"placeholder="eg&nbsp;1")
+        button.btn-primary(type="submit") Summate
         br
-      a(href="/all")
-        button(class="btn"class="btn-default") Get All
-      p This will run a query on a SQLite database.
-  .row
-    .col-sm-12
-      h3 About
-      p This page is served by a Fortran server and uses a LetsEncrypt cert
-      p
-        span Fortran.io is made by Nick Doiron; I'm @mapmeld
-        a(href="https://twitter.com/mapmeld") on Twitter
-        span and 
-        a(href="https://github.com/mapmeld") on GitHub
-        span . Check out gitjk and profanity-pgp.

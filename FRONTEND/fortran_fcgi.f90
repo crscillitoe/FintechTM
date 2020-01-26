@@ -95,64 +95,6 @@ contains
             ! most pages look like this
             templatefile = 'template/index.jade'
             call jadefile(templatefile, unitNo)
-          case ('/test')
-            templatefile = 'template/test.jade'
-            call jadefile(templatefile, unitNo)
-          case ('/search')
-            ! tags which contain multiple templates must be written around them
-            ! in the fortran controller
-            write(unitNo,AFORMAT) '<div class="container">'
-
-            ! header
-            templatefile = 'template/search.jade'
-            call jadefile(templatefile, unitNo)
-
-            pagevars(1,1) = 'name'
-            pagevars(2,1) = 'latinName'
-            pagevars(3,1) = 'wikiLink'
-            pagevars(4,1) = 'description'
-            query = ''
-            call cgi_get( dict, 'q', query)
-            call getOneMarsupial(query, pagevars(1,2), pagevars(2,2), pagevars(3,2), pagevars(4,2))
-
-            if (len(trim(pagevars(1,2))) == 0) then
-              write(unitNo,AFORMAT) '<p>No results in this database :-(</p>'
-            else
-              ! template with string
-              templatefile = 'template/result.jade'
-              call jadetemplate(templatefile, unitNo, pagevars)
-            endif
-
-            ! close .container
-            write(unitNo,AFORMAT) '</div>'
-          case ('/all')
-            write(unitNo,AFORMAT) '<div class="container">'
-            templatefile = 'template/search.jade'
-            call jadefile(templatefile, unitNo)
-
-            pagevars(1,1) = 'name'
-            pagevars(2,1) = 'latinName'
-            pagevars(3,1) = 'wikiLink'
-            pagevars(4,1) = 'description'
-
-            call getAllMarsupials(names, latinNames, wikiLinks, descriptions)
-
-            i = 1
-            do
-              pagevars(1,2) = names(i)
-              pagevars(2,2) = latinNames(i)
-              pagevars(3,2) = wikiLinks(i)
-              pagevars(4,2) = descriptions(i)
-              if (len(trim(pagevars(1,2))) == 0 .or. i == 5) then
-                exit
-              else
-                ! template with string
-                templatefile = 'template/result.jade'
-                call jadetemplate(templatefile, unitNo, pagevars)
-                i = i + 1
-              endif
-            enddo
-            write(unitNo,AFORMAT) '</div>'
           case DEFAULT
             ! your 404 page
             write(unitNo,AFORMAT) 'Page not found!'
