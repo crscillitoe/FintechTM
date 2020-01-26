@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>ini</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Configuration Settings</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>inf</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Setup Information</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>xsl</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>XSL Stylesheet</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>log</string>
+				<string>scp</string>
+				<string>txt</string>
+				<string>wtx</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Text Document</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>css</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Cascading Style Sheet Document</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>zap</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Software Installation Settings</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>xml</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>XML Document</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>htm</string>
+				<string>html</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>HTML Document</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>vmware-docker</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Windows XP Professional
+c:/windows/system32/notepad.exe</string>
+	<key>CFBundleIconFile</key>
+	<string>docker.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.vmware.proxyApp.564d1976cd504e94-bf9325610f2cdd70.4701753838640882728</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Notepad</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>VMware Fusion 8.5.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array/>
+	<key>CFBundleVersion</key>
+	<string>4543325</string>
+	<key>DOExecInfoHash</key>
+	<string>file:29554557-237232128 icon:0-0</string>
+	<key>DOGuestAppURI</key>
+	<string>file:///c:/windows/system32/notepad.exe</string>
+	<key>DOGuestVMConfigPath</key>
+	<string>/Volumes/Joel-WD1TB/Virtual Machines/Windows XP Professional.vmwarevm/Windows XP Professional.vmx</string>
+	<key>DOHostAppBundleIdentifier</key>
+	<string>com.vmware.fusion</string>
+	<key>DOHostAppName</key>
+	<string>VMware Fusion</string>
+	<key>DOLargeIconsRetrieved</key>
+	<false/>
+	<key>DOPublishVersion</key>
+	<integer>3</integer>
+	<key>DOVMUUID</key>
+	<string>56 4d 19 76 cd 50 4e 94-bf 93 25 61 0f 2c dd 70</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAppleScriptEnabled</key>
+	<string>No</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Windows XP Professional
+c:/windows/system32/notepad.exe</string>
+	<key>NSMainNibFile</key>
+	<string>doMainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>DOApplication</string>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<true/>
+	<key>PAFileHandlers</key>
+	<dict>
+		<key>css</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/system32/NOTEPAD.EXE?argv%5B%5D=%251</string>
+		</dict>
+		<key>htm</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/system32/NOTEPAD.EXE?argv%5B%5D=%251</string>
+		</dict>
+		<key>html</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/system32/NOTEPAD.EXE?argv%5B%5D=%251</string>
+		</dict>
+		<key>inf</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/System32/NOTEPAD.EXE?argv%5B%5D=%251</string>
+		</dict>
+		<key>ini</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/System32/NOTEPAD.EXE?argv%5B%5D=%251</string>
+		</dict>
+		<key>log</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/system32/NOTEPAD.EXE?argv%5B%5D=%251</string>
+		</dict>
+		<key>scp</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/system32/NOTEPAD.EXE?argv%5B%5D=%251</string>
+		</dict>
+		<key>txt</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/system32/NOTEPAD.EXE?argv%5B%5D=%251</string>
+		</dict>
+		<key>wtx</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/system32/NOTEPAD.EXE?argv%5B%5D=%251</string>
+		</dict>
+		<key>xml</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/system32/NOTEPAD.EXE?argv%5B%5D=%251</string>
+		</dict>
+		<key>xsl</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/system32/NOTEPAD.EXE?argv%5B%5D=%251</string>
+		</dict>
+		<key>zap</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/system32/NOTEPAD.EXE?argv%5B%5D=%251</string>
+		</dict>
+	</dict>
+	<key>PAURLHandlers</key>
+	<dict/>
+</dict>
+</plist>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>applicationsMenuVersion</key>
+	<real>2</real>
+	<key>hardDiskTotalSize</key>
+	<integer>5308416</integer>
+	<key>proxyAppUUID</key>
+	<string>56 4d 19 76 cd 50 4e 94-bf 93 25 61 0f 2c dd 70</string>
+	<key>reclaimableSize</key>
+	<integer>0</integer>
+	<key>scaledHighResolution</key>
+	<integer>3</integer>
+	<key>singleWindowFrame</key>
+	<string>{{108, 242}, {800, 480}}</string>
+	<key>singleWindowIsZoomed</key>
+	<false/>
+	<key>snapshotSizes</key>
+	<dict>
+		<key>2</key>
+		<integer>33551</integer>
+	</dict>
+	<key>snapshotVMDKSizes</key>
+	<dict>
+		<key>2</key>
+		<integer>1646723072</integer>
+	</dict>
+	<key>snapshotsSize</key>
+	<integer>33551</integer>
+	<key>snapshotsVMDKSize</key>
+	<integer>1646723072</integer>
+</dict>
+</plist>

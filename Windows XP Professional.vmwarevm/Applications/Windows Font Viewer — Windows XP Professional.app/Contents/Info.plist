@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>fon</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Font file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>ttf</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>TrueType Font file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>ttc</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>TrueType Collection Font file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>pfm</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Type 1 Font file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>otf</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>document.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>OpenType Font file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>vmware-docker</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Windows XP Professional
+c:/windows/system32/fontview.exe</string>
+	<key>CFBundleIconFile</key>
+	<string>docker.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.vmware.proxyApp.564d1976cd504e94-bf9325610f2cdd70.3728672921688835504</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Windows Font Viewer</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>VMware Fusion 8.5.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array/>
+	<key>CFBundleVersion</key>
+	<string>4352717</string>
+	<key>DOExecInfoHash</key>
+	<string>file:29554557-237232128 icon:0-0</string>
+	<key>DOGuestAppURI</key>
+	<string>file:///c:/windows/system32/fontview.exe</string>
+	<key>DOGuestVMConfigPath</key>
+	<string>/Volumes/Joel-WD1TB/Virtual Machines/Windows XP Professional.vmwarevm/Windows XP Professional.vmx</string>
+	<key>DOHostAppBundleIdentifier</key>
+	<string>com.vmware.fusion</string>
+	<key>DOHostAppName</key>
+	<string>VMware Fusion</string>
+	<key>DOLargeIconsRetrieved</key>
+	<false/>
+	<key>DOPublishVersion</key>
+	<integer>3</integer>
+	<key>DOVMUUID</key>
+	<string>56 4d 19 76 cd 50 4e 94-bf 93 25 61 0f 2c dd 70</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAppleScriptEnabled</key>
+	<string>No</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Windows XP Professional
+c:/windows/system32/fontview.exe</string>
+	<key>NSMainNibFile</key>
+	<string>doMainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>DOApplication</string>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<true/>
+	<key>PAFileHandlers</key>
+	<dict>
+		<key>fon</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/System32/fontview.exe?argv%5B%5D=%251</string>
+		</dict>
+		<key>otf</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/System32/fontview.exe?argv%5B%5D=%251</string>
+		</dict>
+		<key>pfm</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/System32/fontview.exe?argv%5B%5D=%251</string>
+		</dict>
+		<key>ttc</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/System32/fontview.exe?argv%5B%5D=%251</string>
+		</dict>
+		<key>ttf</key>
+		<dict>
+			<key>run</key>
+			<string>file:///C:/WINDOWS/System32/fontview.exe?argv%5B%5D=%251</string>
+		</dict>
+	</dict>
+	<key>PAURLHandlers</key>
+	<dict/>
+</dict>
+</plist>
