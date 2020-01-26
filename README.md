@@ -1,4 +1,4 @@
-# FintechTM
+# FintechTM - Summation as a Service? (SaaS?)
 
 Welcome to FintechTM! Here we have designed an easy to use summation state machine.
 
